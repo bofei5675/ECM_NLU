@@ -10,3 +10,7 @@ python baseline.py
 
 * Open jupyter notebook `Baseline/jupyter/dialogue_preprocessing.ipynb`, get the dialogue data from google drive.
 
+
+## Official Implementation of ECM 
+
+* Open directory `ecm/`, follow the readme, to run training on the dataset `daily dialogue`, change emotion category size to 7.
