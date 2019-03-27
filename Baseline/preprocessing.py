@@ -228,7 +228,18 @@ def batch2TrainData(voc, pair_batch):
     return inp, lengths, output, mask, max_target_len
 
 
-
+def generate_figure(img_array_before,img_array_after,left,right,save_dir,file_name):
+    f, ax = plt.subplots(2,2,dpi=300)
+    ax[0,0].imshow(img_array_before)
+    ax[0,1].imshow(img_array_after)
+    ax[1,0].imshow(left)
+    ax[1,1].imshow(right)
+    ax[0,0].set_title('Before preprocessing')
+    ax[0,1].set_title('After preprocessing')
+    ax[1,0].set_title('Left')
+    ax[1,1].set_title('Right')
+    f.tight_layout()
+    f.savefig(os.path.join(save_dir,file_name),dpi=300,bbox_inches='tight')
 def main():
     USE_CUDA = torch.cuda.is_available()
     device = torch.device("cuda" if USE_CUDA else "cpu")
