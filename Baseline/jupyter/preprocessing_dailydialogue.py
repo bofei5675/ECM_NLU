@@ -304,4 +304,4 @@ def get_data():
         dataset.append([question, response])
 
     train = dataset
-    return train
+    return train,voc,pairs,pairs_emotion
