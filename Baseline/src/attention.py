@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 # Luong attention layer
 class Attn(torch.nn.Module):
     def __init__(self, method, hidden_size):

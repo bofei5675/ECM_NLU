@@ -271,18 +271,11 @@ def batch2TrainData(voc, index,pairs,pairs_emotion):
     return inp,input_batch_emotion, lengths, output,output_batch_emotion, mask, max_target_len
 
 
-def get_data():
-    DATA_PATH = ''
-    corpus_name = 'dialogues_text.txt'
-    emotions_file = 'dialogues_emotion.txt'
+def get_data(DATA_PATH='data/ijcnlp_dailydialog',corpus_name = 'dialogues_text.txt',emotions_file = 'dialogues_emotion.txt'):
     corpus = os.path.join(DATA_PATH, corpus_name)
     emotions = os.path.join(DATA_PATH, emotions_file)
 
     printLines(corpus)
-
-    conversations = loadLines(corpus)
-    emotions_data = loadEmotions(emotions)
-
     # Load/Assemble voc and pairs
     save_dir = os.path.join("data", "save")
     voc, pairs, pairs_emotion = loadPrepareData(corpus, emotions)

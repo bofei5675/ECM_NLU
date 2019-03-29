@@ -6,7 +6,9 @@ from __future__ import unicode_literals
 
 import torch
 import torch.nn as nn
-
+from src.attention import Attn
+from src.ECM import ECMWrapper
+import torch.nn.functional as F
 
 class LuongAttnDecoderRNN(nn.Module):
     def __init__(self, attn_model, embedding,emotion_embedding, hidden_size, output_size, n_layers=1, dropout=0.1,num_emotions = 7):
@@ -56,3 +58,4 @@ class LuongAttnDecoderRNN(nn.Module):
         output = F.softmax(output, dim=1)
         # Return output and final hidden state
         return output, hidden, new_M_emo, context
+
