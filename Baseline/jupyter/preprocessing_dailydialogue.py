@@ -20,13 +20,13 @@ import math
 import time
 import json
 import numpy as np
-
-# Default word tokens
+'''
+CONSTANT
+'''
 PAD_token = 0  # Used for padding short sentences
 SOS_token = 1  # Start-of-sentence token
 EOS_token = 2  # End-of-sentence token
-MAX_LENGTH = 20
-MIN_COUNT = 3    # Minimum word count threshold for trimming
+
 def printLines(file, n=5):
     with open(file, 'rb') as datafile:
         lines = datafile.readlines()
@@ -86,14 +86,15 @@ def loadEmotions(fileName):
 
     return lines
 class Voc:
-    def __init__(self, name):
+    def __init__(self, name,min_count,max_length):
         self.name = name
         self.trimmed = False
         self.word2index = {}
         self.word2count = {}
         self.index2word = {PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS"}
         self.num_words = 3  # Count SOS, EOS, PAD
-
+        self.min_count = min_count
+        self.max_length = max_length
     def addSentence(self, sentence):
         for word in sentence.split(' '):
             self.addWord(word)
@@ -108,7 +109,7 @@ class Voc:
             self.word2count[word] += 1
 
     # Remove words below a certain count threshold
-    def trim(self, min_count):
+    def trim(self):
         if self.trimmed:
             return
         self.trimmed = True
@@ -116,7 +117,7 @@ class Voc:
         keep_words = []
 
         for k, v in self.word2count.items():
-            if v >= min_count:
+            if v >= self.min_count:
                 keep_words.append(k)
 
         print('keep_words {} / {} = {:.4f}'.format(
@@ -124,7 +125,7 @@ class Voc:
         ))
 
         # Reinitialize dictionaries
-        self.word2index = {}
+        self.word2index = {'PAD':0, 'SOS':1,'EOS':2}
         self.word2count = {}
         self.index2word = {PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS"}
         self.num_words = 3 # Count default tokens
@@ -146,35 +147,43 @@ def flatten(data):
     return pairs
 
 
-def readVocs(corpus_data, emotions_data):
+def readVocs(corpus_data, emotions_data,min_count,max_length):
     print("Reading lines...")
     # Read the file and split into lines
     conversations = loadLines(corpus_data)
     emotions = loadEmotions(emotions_data)
 
-    voc = Voc('Movie_Dialogue')
+    voc = Voc('Movie_Dialogue',min_count,max_length)
     return voc, flatten(conversations), flatten(emotions)
 
 
 # Returns True iff both sentences in a pair 'p' are under the MAX_LENGTH threshold
-def filterPair(p):
+def filterPair(p,max_length):
     # Input sequences need to preserve the last word for EOS token
-    return len(p[0].split(' ')) < MAX_LENGTH and len(p[1].split(' ')) < MAX_LENGTH
+    return len(p[0].split(' ')) < max_length and len(p[1].split(' ')) < max_length
 
 
 # Filter pairs using filterPair condition
-def filterPairs(pairs):
-    return [pair for pair in pairs if filterPair(pair)]
+def filterPairs(pairs,pairs_emotion,max_length):
+    keep_pairs,keep_pairs_emotion = [], []
+    for pair,pair_emotion in zip(pairs,pairs_emotion):
+        if filterPair(pair,max_length):
+            keep_pairs.append(pair)
+            keep_pairs_emotion.append(pair_emotion)
+    return keep_pairs,keep_pairs_emotion
 
 
 # Using the functions defined above, return a populated voc object and pairs list
-def loadPrepareData(corpus_data, emotions_data):
+def loadPrepareData(corpus_data, emotions_data,min_count,max_length,drop_num):
     print("Start preparing training data ...")
-    voc, pairs, pairs_emotion = readVocs(corpus_data, emotions_data)
+    voc, pairs, pairs_emotion = readVocs(corpus_data, emotions_data,min_count,max_length)
     # flatten the pairs of sentences
     print("Read {!s} sentence pairs".format(len(pairs)))
-    pairs = filterPairs(pairs)
+    pairs,pairs_emotion = filterPairs(pairs,pairs_emotion,voc.max_length)
     print("Trimmed to {!s} sentence pairs".format(len(pairs)))
+    print('Emotions left {}'.format(len(pairs_emotion)))
+    print('Under sample one categories:')
+    pairs, pairs_emotion = under_sample(pairs, pairs_emotion, 0, drop_num)
     print("Counting words...")
     for pair in pairs:
         voc.addSentence(pair[0])
@@ -182,9 +191,10 @@ def loadPrepareData(corpus_data, emotions_data):
     print("Counted words:", voc.num_words)
     return voc, pairs, pairs_emotion
 
-def trimRareWords(voc, pairs,pairs_emotion, MIN_COUNT):
+def trimRareWords(voc, pairs,pairs_emotion, min_count):
     # Trim words used under the MIN_COUNT from the voc
-    voc.trim(MIN_COUNT)
+
+    voc.trim()
     # Filter out pairs with trimmed words
     keep_pairs = []
     keep_emotions = []
@@ -271,29 +281,16 @@ def batch2TrainData(voc, index,pairs,pairs_emotion):
     return inp,input_batch_emotion, lengths, output,output_batch_emotion, mask, max_target_len
 
 
-def get_data():
-    DATA_PATH = '../data/ijcnlp_dailydialog'
-    corpus_name = 'dialogues_text.txt'
-    emotions_file = 'dialogues_emotion.txt'
+def get_data(data_path = '../data/ijcnlp_dailydialog', corpus_name = 'dialogues_text.txt', emotions_file = 'dialogues_emotion.txt',min_count = 1,max_length= 10,drop_num = 30000):
+    DATA_PATH = data_path 
     corpus = os.path.join(DATA_PATH, corpus_name)
     emotions = os.path.join(DATA_PATH, emotions_file)
 
-    printLines(corpus)
-
-    conversations = loadLines(corpus)
-    emotions_data = loadEmotions(emotions)
-
-    # Load/Assemble voc and pairs
-    save_dir = os.path.join("data", "save")
-    voc, pairs, pairs_emotion = loadPrepareData(corpus, emotions)
+    voc, pairs, pairs_emotion = loadPrepareData(corpus, emotions,min_count,max_length,drop_num)
     # Print some pairs to validate
-    print("\npairs:")
-    for i in range(10):
-        print(pairs[i])
-        print(pairs_emotion[i])
     # Trim voc and pairs
-    pairs, pairs_emotion = trimRareWords(voc, pairs, pairs_emotion, MIN_COUNT)
-
+    pairs, pairs_emotion = trimRareWords(voc, pairs, pairs_emotion, min_count)
+    '''
     dataset = []
     for idx, qa in enumerate(pairs):
         question, response = qa
@@ -304,4 +301,52 @@ def get_data():
         dataset.append([question, response])
 
     train = dataset
-    return train,voc,pairs,pairs_emotion
+    '''
+    return voc,pairs,pairs_emotion
+
+def under_sample(pairs,pairs_emotion,emotions_cate = 0,drop_num = 30000):
+    '''
+    Under sample the response that has emotion category 0 (no emotion)
+    :param pairs:
+    :param pairs_emotion:
+    :param emotions_cate:
+    :param drop_num:
+    :return:
+    '''
+    drop_no_emotion = True
+    keep_pairs = []
+    keep_pairs_emotion = []
+    drop_count = 0
+    for conversation,emotion in zip(pairs,pairs_emotion):
+        post,response = conversation
+        if emotion[1] == emotions_cate and drop_no_emotion:
+            drop_count += 1
+            if drop_count == drop_num:
+                drop_no_emotion = False
+            continue
+        else:
+            keep_pairs.append(conversation)
+            keep_pairs_emotion.append(emotion)
+    print('Under sample non-emotion to {} samples'.format(len(keep_pairs)))
+    return keep_pairs,keep_pairs_emotion
+
+
+def get_ememory(file_path, voc):
+    '''
+    Get external memory from file. And generate category embedding based on the
+    current vocabulary
+
+    :param file_path:
+    :param voc:
+    :return:
+    '''
+    emotion_words = [0] * voc.num_words
+    count = 0
+    with open(file_path, 'r') as f:
+        for each in f:
+            each = each.rstrip()
+            if each in voc.word2index:
+                count += 1
+                emotion_words[voc.word2index[each]] = 1
+    print('Emotion word counts:', count)
+    return torch.ByteTensor(emotion_words)
