@@ -350,3 +350,27 @@ def get_ememory(file_path, voc):
                 emotion_words[voc.word2index[each]] = 1
     print('Emotion word counts:', count)
     return torch.ByteTensor(emotion_words)
+
+
+def group_emotions(pairs_emotion, emo_group):
+    '''
+    Group emotion category based on given dictionary
+    :param pairs_emotion: list
+    :param emo_group: dict
+    :return: another piars_emotions
+    '''
+    pairs_grouped = []
+
+    for each in pairs_emotion:
+        each[0] = emo_group[each[0]]
+        each[1] = emo_group[each[1]]
+        pairs_grouped.append(each)
+    return pairs_grouped
+
+def compute_perplexity(loss):
+    '''
+    Compute perplexity from loss
+    :param loss:
+    :return:
+    '''
+    return np.exp(loss)
