@@ -1,0 +1,1 @@
+Iteration: 1000; Percent complete: 0.1%; Average loss: 4.7859; Perplexity: 119.81
