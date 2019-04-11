@@ -1,16 +1,12 @@
 # ECM_NLU
 
 ## Traditional Seq2Seq
-* get the pre-trained model from google drive, then run below command to chat with traditional Seq2Seq under directory `Baseline/baseline.py`
-```
-python baseline.py 
-```
+* This model is taken from torch chatbot tutorial. Run jupyter `Baseline/chatbot_tutorial.ipynb` 
 
-## Seq2Seq + Emotional Embedding (Trained on daily dialogue)
+## Emotional Chatting Machine (ECM): Seq2Seq + Emotional Embedding + Internal memory + External memory (PyTorch Implementation)
 
-* Open jupyter notebook `Baseline/jupyter/dialogue_preprocessing.ipynb`, get the dialogue data from google drive.
+* Open jupyter notebook `Baseline/jupyter/dialogue_preprocessing_ECM.ipynb`, get the dialogue data from google drive.
 
-
-## Official Implementation of ECM 
+## Official Implementation of ECM (TensorFlow)
 
 * Open directory `ecm/`, follow the readme, to run training on the dataset `daily dialogue`, change emotion category size to 7.
