@@ -1,292 +1,196 @@
-Iteration: 800; Percent complete: 0.0%; Average loss: 5.0785; Perplexity: 160.53
-Iteration: 900; Percent complete: 0.0%; Average loss: 4.9775; Perplexity: 145.11
-Iteration: 1000; Percent complete: 0.1%; Average loss: 4.9562; Perplexity: 142.05
-Iteration: 1100; Percent complete: 0.1%; Average loss: 5.0525; Perplexity: 156.41
-Iteration: 1200; Percent complete: 0.1%; Average loss: 4.9857; Perplexity: 146.30
-Iteration: 1300; Percent complete: 0.1%; Average loss: 4.9679; Perplexity: 143.72
-Iteration: 1400; Percent complete: 0.1%; Average loss: 4.9749; Perplexity: 144.73
-Iteration: 1500; Percent complete: 0.1%; Average loss: 4.7715; Perplexity: 118.09
-Iteration: 1600; Percent complete: 0.1%; Average loss: 4.8864; Perplexity: 132.48
-Iteration: 1700; Percent complete: 0.1%; Average loss: 4.6932; Perplexity: 109.20
-Iteration: 1800; Percent complete: 0.1%; Average loss: 4.7946; Perplexity: 120.86
-Iteration: 1900; Percent complete: 0.1%; Average loss: 4.7031; Perplexity: 110.29
-Iteration: 2000; Percent complete: 0.1%; Average loss: 4.8786; Perplexity: 131.44
-Iteration: 2100; Percent complete: 0.1%; Average loss: 4.8859; Perplexity: 132.41
-Iteration: 2200; Percent complete: 0.1%; Average loss: 4.8638; Perplexity: 129.52
-Iteration: 2300; Percent complete: 0.1%; Average loss: 4.7634; Perplexity: 117.14
-Iteration: 2400; Percent complete: 0.1%; Average loss: 4.5995; Perplexity: 99.44
-Iteration: 2500; Percent complete: 0.1%; Average loss: 4.8429; Perplexity: 126.84
-Iteration: 2600; Percent complete: 0.1%; Average loss: 4.7797; Perplexity: 119.06
-Iteration: 2700; Percent complete: 0.1%; Average loss: 4.7685; Perplexity: 117.75
-Iteration: 2800; Percent complete: 0.1%; Average loss: 4.7977; Perplexity: 121.23
-Iteration: 2900; Percent complete: 0.1%; Average loss: 4.8231; Perplexity: 124.35
-Iteration: 3000; Percent complete: 0.1%; Average loss: 4.6865; Perplexity: 108.48
-Iteration: 3100; Percent complete: 0.2%; Average loss: 4.7607; Perplexity: 116.83
-Iteration: 3200; Percent complete: 0.2%; Average loss: 4.7192; Perplexity: 112.08
-Iteration: 3300; Percent complete: 0.2%; Average loss: 4.7360; Perplexity: 113.98
-Iteration: 3400; Percent complete: 0.2%; Average loss: 4.6908; Perplexity: 108.94
-Iteration: 3500; Percent complete: 0.2%; Average loss: 4.6040; Perplexity: 99.88
-Iteration: 3600; Percent complete: 0.2%; Average loss: 4.7053; Perplexity: 110.53
-Iteration: 3700; Percent complete: 0.2%; Average loss: 4.5782; Perplexity: 97.34
-Iteration: 3800; Percent complete: 0.2%; Average loss: 4.5911; Perplexity: 98.60
-Iteration: 3900; Percent complete: 0.2%; Average loss: 4.4626; Perplexity: 86.71
-Iteration: 4000; Percent complete: 0.2%; Average loss: 4.7507; Perplexity: 115.66
-Iteration: 4100; Percent complete: 0.2%; Average loss: 4.4392; Perplexity: 84.71
-Iteration: 4200; Percent complete: 0.2%; Average loss: 4.5222; Perplexity: 92.04
-Iteration: 4300; Percent complete: 0.2%; Average loss: 4.6850; Perplexity: 108.31
-Iteration: 4400; Percent complete: 0.2%; Average loss: 4.5102; Perplexity: 90.94
-Iteration: 4500; Percent complete: 0.2%; Average loss: 4.6096; Perplexity: 100.45
-Iteration: 4600; Percent complete: 0.2%; Average loss: 4.6154; Perplexity: 101.03
-Iteration: 4700; Percent complete: 0.2%; Average loss: 4.6687; Perplexity: 106.56
-Iteration: 4800; Percent complete: 0.2%; Average loss: 4.6608; Perplexity: 105.72
-Iteration: 4900; Percent complete: 0.2%; Average loss: 4.6449; Perplexity: 104.06
-Iteration: 5000; Percent complete: 0.2%; Average loss: 4.5927; Perplexity: 98.76
-Iteration: 5100; Percent complete: 0.3%; Average loss: 4.5029; Perplexity: 90.28
-Iteration: 5200; Percent complete: 0.3%; Average loss: 4.4928; Perplexity: 89.37
-Iteration: 5300; Percent complete: 0.3%; Average loss: 4.7105; Perplexity: 111.11
-Iteration: 5400; Percent complete: 0.3%; Average loss: 4.4069; Perplexity: 82.01
-Iteration: 5500; Percent complete: 0.3%; Average loss: 4.5484; Perplexity: 94.48
-Iteration: 5600; Percent complete: 0.3%; Average loss: 4.4886; Perplexity: 89.00
-Iteration: 5700; Percent complete: 0.3%; Average loss: 4.5904; Perplexity: 98.53
-Iteration: 5800; Percent complete: 0.3%; Average loss: 4.6032; Perplexity: 99.80
-Iteration: 5900; Percent complete: 0.3%; Average loss: 4.5557; Perplexity: 95.18
-Iteration: 6000; Percent complete: 0.3%; Average loss: 4.4695; Perplexity: 87.31
-Iteration: 6100; Percent complete: 0.3%; Average loss: 4.5065; Perplexity: 90.60
-Iteration: 6200; Percent complete: 0.3%; Average loss: 4.6280; Perplexity: 102.31
-Iteration: 6300; Percent complete: 0.3%; Average loss: 4.4896; Perplexity: 89.09
-Iteration: 6400; Percent complete: 0.3%; Average loss: 4.5794; Perplexity: 97.45
-Iteration: 6500; Percent complete: 0.3%; Average loss: 4.4660; Perplexity: 87.01
-Iteration: 6600; Percent complete: 0.3%; Average loss: 4.4194; Perplexity: 83.05
-Iteration: 6700; Percent complete: 0.3%; Average loss: 4.4874; Perplexity: 88.89
-Iteration: 6800; Percent complete: 0.3%; Average loss: 4.4495; Perplexity: 85.59
-Iteration: 6900; Percent complete: 0.3%; Average loss: 4.4608; Perplexity: 86.55
-Iteration: 7000; Percent complete: 0.4%; Average loss: 4.4812; Perplexity: 88.34
-Iteration: 7100; Percent complete: 0.4%; Average loss: 4.4756; Perplexity: 87.84
-Iteration: 7200; Percent complete: 0.4%; Average loss: 4.3795; Perplexity: 79.80
-Iteration: 7300; Percent complete: 0.4%; Average loss: 4.4699; Perplexity: 87.35
-Iteration: 7400; Percent complete: 0.4%; Average loss: 4.2202; Perplexity: 68.05
-Iteration: 7500; Percent complete: 0.4%; Average loss: 4.3984; Perplexity: 81.32
-Iteration: 7600; Percent complete: 0.4%; Average loss: 4.3557; Perplexity: 77.92
-Iteration: 7700; Percent complete: 0.4%; Average loss: 4.2599; Perplexity: 70.80
-Iteration: 7800; Percent complete: 0.4%; Average loss: 4.2790; Perplexity: 72.17
-Iteration: 7900; Percent complete: 0.4%; Average loss: 4.2684; Perplexity: 71.41
-Iteration: 8000; Percent complete: 0.4%; Average loss: 4.2870; Perplexity: 72.75
-Iteration: 8100; Percent complete: 0.4%; Average loss: 4.4619; Perplexity: 86.65
-Iteration: 8200; Percent complete: 0.4%; Average loss: 4.4529; Perplexity: 85.88
-Iteration: 8300; Percent complete: 0.4%; Average loss: 4.3449; Perplexity: 77.08
-Iteration: 8400; Percent complete: 0.4%; Average loss: 4.2038; Perplexity: 66.94
-Iteration: 8500; Percent complete: 0.4%; Average loss: 4.2905; Perplexity: 73.01
-Iteration: 8600; Percent complete: 0.4%; Average loss: 4.3483; Perplexity: 77.35
-Iteration: 8700; Percent complete: 0.4%; Average loss: 4.3146; Perplexity: 74.79
-Iteration: 8800; Percent complete: 0.4%; Average loss: 4.4377; Perplexity: 84.58
-Iteration: 8900; Percent complete: 0.4%; Average loss: 4.4070; Perplexity: 82.02
-Iteration: 9000; Percent complete: 0.4%; Average loss: 4.2054; Perplexity: 67.05
-Iteration: 9100; Percent complete: 0.5%; Average loss: 4.4609; Perplexity: 86.56
-Iteration: 9200; Percent complete: 0.5%; Average loss: 4.3798; Perplexity: 79.83
-Iteration: 9300; Percent complete: 0.5%; Average loss: 4.3530; Perplexity: 77.71
-Iteration: 9400; Percent complete: 0.5%; Average loss: 4.2186; Perplexity: 67.94
-Iteration: 9500; Percent complete: 0.5%; Average loss: 4.3435; Perplexity: 76.97
-Iteration: 9600; Percent complete: 0.5%; Average loss: 4.4342; Perplexity: 84.29
-Iteration: 9700; Percent complete: 0.5%; Average loss: 4.3344; Perplexity: 76.28
-Iteration: 9800; Percent complete: 0.5%; Average loss: 4.2603; Perplexity: 70.83
-Iteration: 9900; Percent complete: 0.5%; Average loss: 4.4463; Perplexity: 85.31
-Iteration: 10000; Percent complete: 0.5%; Average loss: 4.2828; Perplexity: 72.44
-Iteration: 10100; Percent complete: 0.5%; Average loss: 4.2713; Perplexity: 71.61
-Iteration: 10200; Percent complete: 0.5%; Average loss: 4.2556; Perplexity: 70.50
-Iteration: 10300; Percent complete: 0.5%; Average loss: 4.3672; Perplexity: 78.83
-Iteration: 10400; Percent complete: 0.5%; Average loss: 4.0365; Perplexity: 56.63
-Iteration: 10500; Percent complete: 0.5%; Average loss: 4.3016; Perplexity: 73.82
-Iteration: 10600; Percent complete: 0.5%; Average loss: 4.2904; Perplexity: 73.00
-Iteration: 10700; Percent complete: 0.5%; Average loss: 4.3348; Perplexity: 76.31
-Iteration: 10800; Percent complete: 0.5%; Average loss: 4.2040; Perplexity: 66.95
-Iteration: 10900; Percent complete: 0.5%; Average loss: 4.2204; Perplexity: 68.06
-Iteration: 11000; Percent complete: 0.5%; Average loss: 4.2074; Perplexity: 67.18
-Iteration: 11100; Percent complete: 0.6%; Average loss: 4.2347; Perplexity: 69.04
-Iteration: 11200; Percent complete: 0.6%; Average loss: 4.0391; Perplexity: 56.78
-Iteration: 11300; Percent complete: 0.6%; Average loss: 4.2430; Perplexity: 69.61
-Iteration: 11400; Percent complete: 0.6%; Average loss: 4.1626; Perplexity: 64.24
-Iteration: 11500; Percent complete: 0.6%; Average loss: 4.2791; Perplexity: 72.18
-Iteration: 11600; Percent complete: 0.6%; Average loss: 4.2216; Perplexity: 68.14
-Iteration: 11700; Percent complete: 0.6%; Average loss: 4.2392; Perplexity: 69.35
-Iteration: 11800; Percent complete: 0.6%; Average loss: 4.1911; Perplexity: 66.09
-Iteration: 11900; Percent complete: 0.6%; Average loss: 4.1802; Perplexity: 65.38
-Iteration: 12000; Percent complete: 0.6%; Average loss: 4.0583; Perplexity: 57.88
-Iteration: 12100; Percent complete: 0.6%; Average loss: 4.1431; Perplexity: 63.00
-Iteration: 12200; Percent complete: 0.6%; Average loss: 4.4270; Perplexity: 83.68
-Iteration: 12300; Percent complete: 0.6%; Average loss: 4.1839; Perplexity: 65.62
-Iteration: 12400; Percent complete: 0.6%; Average loss: 4.1060; Perplexity: 60.70
-Iteration: 12500; Percent complete: 0.6%; Average loss: 4.1963; Perplexity: 66.44
-Iteration: 12600; Percent complete: 0.6%; Average loss: 4.0281; Perplexity: 56.15
-Iteration: 12700; Percent complete: 0.6%; Average loss: 4.0729; Perplexity: 58.73
-Iteration: 12800; Percent complete: 0.6%; Average loss: 4.4061; Perplexity: 81.95
-Iteration: 12900; Percent complete: 0.6%; Average loss: 4.0277; Perplexity: 56.13
-Iteration: 13000; Percent complete: 0.7%; Average loss: 4.1370; Perplexity: 62.62
-Iteration: 13100; Percent complete: 0.7%; Average loss: 4.1918; Perplexity: 66.14
-Iteration: 13200; Percent complete: 0.7%; Average loss: 4.1335; Perplexity: 62.40
-Iteration: 13300; Percent complete: 0.7%; Average loss: 4.1142; Perplexity: 61.20
-Iteration: 13400; Percent complete: 0.7%; Average loss: 4.2409; Perplexity: 69.47
-Iteration: 13500; Percent complete: 0.7%; Average loss: 4.0930; Perplexity: 59.92
-Iteration: 13600; Percent complete: 0.7%; Average loss: 3.9868; Perplexity: 53.88
-Iteration: 13700; Percent complete: 0.7%; Average loss: 4.2138; Perplexity: 67.61
-Iteration: 13800; Percent complete: 0.7%; Average loss: 4.0985; Perplexity: 60.25
-Iteration: 13900; Percent complete: 0.7%; Average loss: 3.9086; Perplexity: 49.83
-Iteration: 14000; Percent complete: 0.7%; Average loss: 4.1179; Perplexity: 61.43
-Iteration: 14100; Percent complete: 0.7%; Average loss: 3.9609; Perplexity: 52.50
-Iteration: 14200; Percent complete: 0.7%; Average loss: 4.0919; Perplexity: 59.85
-Iteration: 14300; Percent complete: 0.7%; Average loss: 4.0822; Perplexity: 59.27
-Iteration: 14400; Percent complete: 0.7%; Average loss: 4.0370; Perplexity: 56.66
-Iteration: 14500; Percent complete: 0.7%; Average loss: 4.1546; Perplexity: 63.73
-Iteration: 14600; Percent complete: 0.7%; Average loss: 4.0071; Perplexity: 54.99
-Iteration: 14700; Percent complete: 0.7%; Average loss: 4.0853; Perplexity: 59.46
-Iteration: 14800; Percent complete: 0.7%; Average loss: 3.9242; Perplexity: 50.61
-Iteration: 14900; Percent complete: 0.7%; Average loss: 4.0344; Perplexity: 56.51
-Iteration: 15000; Percent complete: 0.8%; Average loss: 4.1078; Perplexity: 60.81
-Iteration: 15100; Percent complete: 0.8%; Average loss: 4.0200; Perplexity: 55.70
-Iteration: 15200; Percent complete: 0.8%; Average loss: 4.1003; Perplexity: 60.36
-Iteration: 15300; Percent complete: 0.8%; Average loss: 4.0185; Perplexity: 55.62
-Iteration: 15400; Percent complete: 0.8%; Average loss: 4.0813; Perplexity: 59.22
-Iteration: 15500; Percent complete: 0.8%; Average loss: 4.0667; Perplexity: 58.36
-Iteration: 15600; Percent complete: 0.8%; Average loss: 4.0003; Perplexity: 54.61
-Iteration: 15700; Percent complete: 0.8%; Average loss: 4.1204; Perplexity: 61.58
-Iteration: 15800; Percent complete: 0.8%; Average loss: 3.9597; Perplexity: 52.44
-Iteration: 15900; Percent complete: 0.8%; Average loss: 4.0375; Perplexity: 56.69
-Iteration: 16000; Percent complete: 0.8%; Average loss: 3.9082; Perplexity: 49.81
-Iteration: 16100; Percent complete: 0.8%; Average loss: 3.9436; Perplexity: 51.61
-Iteration: 16200; Percent complete: 0.8%; Average loss: 3.9481; Perplexity: 51.84
-Iteration: 16300; Percent complete: 0.8%; Average loss: 4.0802; Perplexity: 59.16
-Iteration: 16400; Percent complete: 0.8%; Average loss: 3.9864; Perplexity: 53.86
-Iteration: 16500; Percent complete: 0.8%; Average loss: 4.0289; Perplexity: 56.20
-Iteration: 16600; Percent complete: 0.8%; Average loss: 4.0144; Perplexity: 55.39
-Iteration: 16700; Percent complete: 0.8%; Average loss: 4.0121; Perplexity: 55.26
-Iteration: 16800; Percent complete: 0.8%; Average loss: 4.1079; Perplexity: 60.82
-Iteration: 16900; Percent complete: 0.8%; Average loss: 3.9584; Perplexity: 52.37
-Iteration: 17000; Percent complete: 0.9%; Average loss: 3.9513; Perplexity: 52.00
-Iteration: 17100; Percent complete: 0.9%; Average loss: 4.1173; Perplexity: 61.39
-Iteration: 17200; Percent complete: 0.9%; Average loss: 3.8153; Perplexity: 45.39
-Iteration: 17300; Percent complete: 0.9%; Average loss: 4.0396; Perplexity: 56.80
-Iteration: 17400; Percent complete: 0.9%; Average loss: 3.9117; Perplexity: 49.98
-Iteration: 17500; Percent complete: 0.9%; Average loss: 3.9300; Perplexity: 50.91
-Iteration: 17600; Percent complete: 0.9%; Average loss: 3.9176; Perplexity: 50.28
-Iteration: 17700; Percent complete: 0.9%; Average loss: 3.9551; Perplexity: 52.20
-Iteration: 17800; Percent complete: 0.9%; Average loss: 3.9509; Perplexity: 51.98
-Iteration: 17900; Percent complete: 0.9%; Average loss: 3.9878; Perplexity: 53.94
-Iteration: 18000; Percent complete: 0.9%; Average loss: 3.9355; Perplexity: 51.19
-Iteration: 18100; Percent complete: 0.9%; Average loss: 3.8129; Perplexity: 45.28
-Iteration: 18200; Percent complete: 0.9%; Average loss: 3.8972; Perplexity: 49.27
-Iteration: 18300; Percent complete: 0.9%; Average loss: 3.9539; Perplexity: 52.14
-Iteration: 18400; Percent complete: 0.9%; Average loss: 3.7850; Perplexity: 44.03
-Iteration: 18500; Percent complete: 0.9%; Average loss: 4.0474; Perplexity: 57.25
-Iteration: 18600; Percent complete: 0.9%; Average loss: 4.0188; Perplexity: 55.63
-Iteration: 18700; Percent complete: 0.9%; Average loss: 3.7604; Perplexity: 42.97
-Iteration: 18800; Percent complete: 0.9%; Average loss: 4.0060; Perplexity: 54.93
-Iteration: 18900; Percent complete: 0.9%; Average loss: 4.0106; Perplexity: 55.18
-Iteration: 19000; Percent complete: 0.9%; Average loss: 3.9806; Perplexity: 53.55
-Iteration: 19100; Percent complete: 1.0%; Average loss: 3.8278; Perplexity: 45.96
-Iteration: 19200; Percent complete: 1.0%; Average loss: 3.8254; Perplexity: 45.85
-Iteration: 19300; Percent complete: 1.0%; Average loss: 3.7876; Perplexity: 44.15
-Iteration: 19400; Percent complete: 1.0%; Average loss: 3.7965; Perplexity: 44.54
-Iteration: 19500; Percent complete: 1.0%; Average loss: 4.1085; Perplexity: 60.86
-Iteration: 19600; Percent complete: 1.0%; Average loss: 3.9234; Perplexity: 50.57
-Iteration: 19700; Percent complete: 1.0%; Average loss: 3.8752; Perplexity: 48.19
-Iteration: 19800; Percent complete: 1.0%; Average loss: 3.8919; Perplexity: 49.00
-Iteration: 19900; Percent complete: 1.0%; Average loss: 3.8417; Perplexity: 46.60
-Iteration: 20000; Percent complete: 1.0%; Average loss: 3.9702; Perplexity: 53.00
-Iteration: 20100; Percent complete: 1.0%; Average loss: 3.7090; Perplexity: 40.81
-Iteration: 20200; Percent complete: 1.0%; Average loss: 3.9738; Perplexity: 53.18
-Iteration: 20300; Percent complete: 1.0%; Average loss: 3.7222; Perplexity: 41.35
-Iteration: 20400; Percent complete: 1.0%; Average loss: 3.9904; Perplexity: 54.07
-Iteration: 20500; Percent complete: 1.0%; Average loss: 3.8693; Perplexity: 47.91
-Iteration: 20600; Percent complete: 1.0%; Average loss: 3.9583; Perplexity: 52.37
-Iteration: 20700; Percent complete: 1.0%; Average loss: 3.7880; Perplexity: 44.17
-Iteration: 20800; Percent complete: 1.0%; Average loss: 3.8166; Perplexity: 45.45
-Iteration: 20900; Percent complete: 1.0%; Average loss: 3.9729; Perplexity: 53.14
-Iteration: 21000; Percent complete: 1.1%; Average loss: 3.7775; Perplexity: 43.71
-Iteration: 21100; Percent complete: 1.1%; Average loss: 3.8283; Perplexity: 45.98
-Iteration: 21200; Percent complete: 1.1%; Average loss: 3.7998; Perplexity: 44.69
-Iteration: 21300; Percent complete: 1.1%; Average loss: 3.8786; Perplexity: 48.36
-Iteration: 21400; Percent complete: 1.1%; Average loss: 3.8230; Perplexity: 45.74
-Iteration: 21500; Percent complete: 1.1%; Average loss: 3.8001; Perplexity: 44.70
-Iteration: 21600; Percent complete: 1.1%; Average loss: 3.9067; Perplexity: 49.74
-Iteration: 21700; Percent complete: 1.1%; Average loss: 3.7671; Perplexity: 43.26
-Iteration: 21800; Percent complete: 1.1%; Average loss: 3.6395; Perplexity: 38.07
-Iteration: 21900; Percent complete: 1.1%; Average loss: 3.6871; Perplexity: 39.93
-Iteration: 22000; Percent complete: 1.1%; Average loss: 3.6676; Perplexity: 39.16
-Iteration: 22100; Percent complete: 1.1%; Average loss: 3.7010; Perplexity: 40.49
-Iteration: 22200; Percent complete: 1.1%; Average loss: 3.6527; Perplexity: 38.58
-Iteration: 22300; Percent complete: 1.1%; Average loss: 3.7876; Perplexity: 44.15
-Iteration: 22400; Percent complete: 1.1%; Average loss: 3.6698; Perplexity: 39.24
-Iteration: 22500; Percent complete: 1.1%; Average loss: 3.7196; Perplexity: 41.25
-Iteration: 22600; Percent complete: 1.1%; Average loss: 3.7576; Perplexity: 42.85
-Iteration: 22700; Percent complete: 1.1%; Average loss: 3.6948; Perplexity: 40.24
-Iteration: 22800; Percent complete: 1.1%; Average loss: 3.7356; Perplexity: 41.91
-Iteration: 22900; Percent complete: 1.1%; Average loss: 3.7077; Perplexity: 40.76
-Iteration: 23000; Percent complete: 1.1%; Average loss: 3.7784; Perplexity: 43.74
-Iteration: 23100; Percent complete: 1.2%; Average loss: 3.7263; Perplexity: 41.52
-Iteration: 23200; Percent complete: 1.2%; Average loss: 3.7776; Perplexity: 43.71
-Iteration: 23300; Percent complete: 1.2%; Average loss: 3.7582; Perplexity: 42.87
-Iteration: 23400; Percent complete: 1.2%; Average loss: 3.6098; Perplexity: 36.96
-Iteration: 23500; Percent complete: 1.2%; Average loss: 3.7907; Perplexity: 44.29
-Iteration: 23600; Percent complete: 1.2%; Average loss: 3.7677; Perplexity: 43.28
-Iteration: 23700; Percent complete: 1.2%; Average loss: 3.8226; Perplexity: 45.72
-Iteration: 23800; Percent complete: 1.2%; Average loss: 3.7021; Perplexity: 40.53
-Iteration: 23900; Percent complete: 1.2%; Average loss: 3.7894; Perplexity: 44.23
-Iteration: 24000; Percent complete: 1.2%; Average loss: 3.7407; Perplexity: 42.13
-Iteration: 24100; Percent complete: 1.2%; Average loss: 3.6670; Perplexity: 39.14
-Iteration: 24200; Percent complete: 1.2%; Average loss: 3.5819; Perplexity: 35.94
-Iteration: 24300; Percent complete: 1.2%; Average loss: 3.8532; Perplexity: 47.14
-Iteration: 24400; Percent complete: 1.2%; Average loss: 3.5778; Perplexity: 35.79
-Iteration: 24500; Percent complete: 1.2%; Average loss: 3.6925; Perplexity: 40.15
-Iteration: 24600; Percent complete: 1.2%; Average loss: 3.7318; Perplexity: 41.75
-Iteration: 24700; Percent complete: 1.2%; Average loss: 3.7520; Perplexity: 42.61
-Iteration: 24800; Percent complete: 1.2%; Average loss: 3.8496; Perplexity: 46.97
-Iteration: 24900; Percent complete: 1.2%; Average loss: 3.6523; Perplexity: 38.56
-Iteration: 25000; Percent complete: 1.2%; Average loss: 3.7606; Perplexity: 42.97
-Iteration: 25100; Percent complete: 1.3%; Average loss: 3.7877; Perplexity: 44.15
-Iteration: 25200; Percent complete: 1.3%; Average loss: 3.7398; Perplexity: 42.09
-Iteration: 25300; Percent complete: 1.3%; Average loss: 3.7617; Perplexity: 43.02
-Iteration: 25400; Percent complete: 1.3%; Average loss: 3.6072; Perplexity: 36.86
-Iteration: 25500; Percent complete: 1.3%; Average loss: 3.7157; Perplexity: 41.09
-Iteration: 25600; Percent complete: 1.3%; Average loss: 3.7424; Perplexity: 42.20
-Iteration: 25700; Percent complete: 1.3%; Average loss: 3.6779; Perplexity: 39.56
-Iteration: 25800; Percent complete: 1.3%; Average loss: 3.8083; Perplexity: 45.07
-Iteration: 25900; Percent complete: 1.3%; Average loss: 3.7635; Perplexity: 43.10
-Iteration: 26000; Percent complete: 1.3%; Average loss: 3.6960; Perplexity: 40.29
-Iteration: 26100; Percent complete: 1.3%; Average loss: 3.6324; Perplexity: 37.80
-Iteration: 26200; Percent complete: 1.3%; Average loss: 3.6289; Perplexity: 37.67
-Iteration: 26300; Percent complete: 1.3%; Average loss: 3.6732; Perplexity: 39.38
-Iteration: 26400; Percent complete: 1.3%; Average loss: 3.6606; Perplexity: 38.88
-Iteration: 26500; Percent complete: 1.3%; Average loss: 3.7694; Perplexity: 43.36
-Iteration: 26600; Percent complete: 1.3%; Average loss: 3.7362; Perplexity: 41.94
-Iteration: 26700; Percent complete: 1.3%; Average loss: 3.5598; Perplexity: 35.16
-Iteration: 26800; Percent complete: 1.3%; Average loss: 3.5406; Perplexity: 34.49
-Iteration: 26900; Percent complete: 1.3%; Average loss: 3.5644; Perplexity: 35.32
-Iteration: 27000; Percent complete: 1.4%; Average loss: 3.6707; Perplexity: 39.28
-Iteration: 27100; Percent complete: 1.4%; Average loss: 3.7992; Perplexity: 44.66
-Iteration: 27200; Percent complete: 1.4%; Average loss: 3.5325; Perplexity: 34.21
-Iteration: 27300; Percent complete: 1.4%; Average loss: 3.6503; Perplexity: 38.49
-Iteration: 27400; Percent complete: 1.4%; Average loss: 3.5275; Perplexity: 34.04
-Iteration: 27500; Percent complete: 1.4%; Average loss: 3.6657; Perplexity: 39.09
-Iteration: 27600; Percent complete: 1.4%; Average loss: 3.4700; Perplexity: 32.14
-Iteration: 27700; Percent complete: 1.4%; Average loss: 3.6647; Perplexity: 39.04
-Iteration: 27800; Percent complete: 1.4%; Average loss: 3.5856; Perplexity: 36.08
-Iteration: 27900; Percent complete: 1.4%; Average loss: 3.4105; Perplexity: 30.28
-Iteration: 28000; Percent complete: 1.4%; Average loss: 3.7938; Perplexity: 44.42
-Iteration: 28100; Percent complete: 1.4%; Average loss: 3.5052; Perplexity: 33.29
-Iteration: 28200; Percent complete: 1.4%; Average loss: 3.6296; Perplexity: 37.70
-Iteration: 28300; Percent complete: 1.4%; Average loss: 3.5883; Perplexity: 36.17
-Iteration: 28400; Percent complete: 1.4%; Average loss: 3.4670; Perplexity: 32.04
-Iteration: 28500; Percent complete: 1.4%; Average loss: 3.5739; Perplexity: 35.65
-Iteration: 28600; Percent complete: 1.4%; Average loss: 3.6975; Perplexity: 40.35
-Iteration: 28700; Percent complete: 1.4%; Average loss: 3.5569; Perplexity: 35.05
-Iteration: 28800; Percent complete: 1.4%; Average loss: 3.5498; Perplexity: 34.81
-Iteration: 28900; Percent complete: 1.4%; Average loss: 3.5134; Perplexity: 33.56
-Iteration: 29000; Percent complete: 1.5%; Average loss: 3.7698; Perplexity: 43.37
-Iteration: 29100; Percent complete: 1.5%; Average loss: 3.4936; Perplexity: 32.91
-Iteration: 29200; Percent complete: 1.5%; Average loss: 3.5487; Perplexity: 34.77
-Iteration: 29300; Percent complete: 1.5%; Average loss: 3.5087; Perplexity: 33.40
-Iteration: 29400; Percent complete: 1.5%; Average loss: 3.5821; Perplexity: 35.95
-Iteration: 29500; Percent complete: 1.5%; Average loss: 3.4370; Perplexity: 31.09
-Iteration: 29600; Percent complete: 1.5%; Average loss: 3.5162; Perplexity: 33.66
-Iteration: 29700; Percent complete: 1.5%; Average loss: 3.6696; Perplexity: 39.23
-Iteration: 1; Percent complete: 0.0%; Average loss: 8.6071; Perplexity: 5470.52
-Iteration: 2; Percent complete: 0.0%; Average loss: 8.3118; Perplexity: 4071.72
+Iteration: 1; Percent complete: 0.0%; Average loss: 9.2821; Perplexity: 10744.23
+Loss on validation set 8.8682; Perplexity:7102.66
+Iteration: 1000; Percent complete: 0.1%; Average loss: 5.4194; Perplexity: 225.74
+Loss on validation set 5.5532; Perplexity:258.07
+Iteration: 2000; Percent complete: 0.1%; Average loss: 4.9933; Perplexity: 147.42
+Loss on validation set 5.4666; Perplexity:236.66
+Iteration: 3000; Percent complete: 0.1%; Average loss: 4.8936; Perplexity: 133.43
+Loss on validation set 5.5026; Perplexity:245.32
+Iteration: 4000; Percent complete: 0.2%; Average loss: 4.7729; Perplexity: 118.26
+Loss on validation set 5.4380; Perplexity:229.98
+Iteration: 5000; Percent complete: 0.2%; Average loss: 4.7397; Perplexity: 114.39
+Loss on validation set 5.4475; Perplexity:232.17
+Iteration: 6000; Percent complete: 0.3%; Average loss: 4.7044; Perplexity: 110.44
+Loss on validation set 5.6167; Perplexity:274.97
+Iteration: 7000; Percent complete: 0.4%; Average loss: 4.5929; Perplexity: 98.78
+Loss on validation set 5.4550; Perplexity:233.93
+Iteration: 8000; Percent complete: 0.4%; Average loss: 4.5856; Perplexity: 98.06
+Loss on validation set 5.5023; Perplexity:245.25
+Iteration: 9000; Percent complete: 0.4%; Average loss: 4.5846; Perplexity: 97.97
+Loss on validation set 5.3847; Perplexity:218.04
+Iteration: 10000; Percent complete: 0.5%; Average loss: 4.5165; Perplexity: 91.52
+Loss on validation set 5.4469; Perplexity:232.03
+Iteration: 11000; Percent complete: 0.5%; Average loss: 4.4646; Perplexity: 86.89
+Loss on validation set 5.4287; Perplexity:227.86
+Iteration: 12000; Percent complete: 0.6%; Average loss: 4.4133; Perplexity: 82.54
+Loss on validation set 5.4746; Perplexity:238.54
+Iteration: 13000; Percent complete: 0.7%; Average loss: 4.4165; Perplexity: 82.80
+Loss on validation set 5.5018; Perplexity:245.14
+Iteration: 14000; Percent complete: 0.7%; Average loss: 4.3888; Perplexity: 80.54
+Loss on validation set 5.4201; Perplexity:225.90
+Iteration: 15000; Percent complete: 0.8%; Average loss: 4.3321; Perplexity: 76.10
+Loss on validation set 5.4816; Perplexity:240.23
+Iteration: 16000; Percent complete: 0.8%; Average loss: 4.3385; Perplexity: 76.59
+Loss on validation set 5.4137; Perplexity:224.45
+Iteration: 17000; Percent complete: 0.9%; Average loss: 4.3253; Perplexity: 75.58
+Loss on validation set 5.4826; Perplexity:240.48
+Iteration: 18000; Percent complete: 0.9%; Average loss: 4.2142; Perplexity: 67.64
+Loss on validation set 5.4695; Perplexity:237.33
+Iteration: 19000; Percent complete: 0.9%; Average loss: 4.2599; Perplexity: 70.80
+Loss on validation set 5.4406; Perplexity:230.59
+Iteration: 20000; Percent complete: 1.0%; Average loss: 4.2327; Perplexity: 68.90
+Loss on validation set 5.5333; Perplexity:252.99
+Iteration: 21000; Percent complete: 1.1%; Average loss: 4.1547; Perplexity: 63.73
+Loss on validation set 5.4732; Perplexity:238.22
+Iteration: 22000; Percent complete: 1.1%; Average loss: 4.1487; Perplexity: 63.35
+Loss on validation set 5.5263; Perplexity:251.22
+Iteration: 23000; Percent complete: 1.1%; Average loss: 4.1417; Perplexity: 62.91
+Loss on validation set 5.5659; Perplexity:261.36
+Iteration: 24000; Percent complete: 1.2%; Average loss: 4.1166; Perplexity: 61.35
+Loss on validation set 5.4735; Perplexity:238.30
+Iteration: 1; Percent complete: 0.0%; Average loss: 9.1158; Perplexity: 9097.87
+Loss on validation set 8.6676; Perplexity:5811.26
+Iteration: 25000; Percent complete: 1.2%; Average loss: 4.0727; Perplexity: 58.72
+Loss on validation set 5.5120; Perplexity:247.65
+Iteration: 26000; Percent complete: 1.3%; Average loss: 4.0412; Perplexity: 56.90
+Loss on validation set 5.5598; Perplexity:259.76
+Iteration: 27000; Percent complete: 1.4%; Average loss: 4.0048; Perplexity: 54.86
+Loss on validation set 5.5257; Perplexity:251.06
+Iteration: 28000; Percent complete: 1.4%; Average loss: 3.9967; Perplexity: 54.42
+Loss on validation set 5.5542; Perplexity:258.32
+Iteration: 29000; Percent complete: 1.5%; Average loss: 3.9482; Perplexity: 51.84
+Loss on validation set 5.5975; Perplexity:269.76
+Iteration: 30000; Percent complete: 1.5%; Average loss: 3.9578; Perplexity: 52.34
+Loss on validation set 5.5876; Perplexity:267.11
+Iteration: 31000; Percent complete: 1.6%; Average loss: 3.9378; Perplexity: 51.31
+Loss on validation set 5.6623; Perplexity:287.80
+Iteration: 32000; Percent complete: 1.6%; Average loss: 3.9095; Perplexity: 49.87
+Loss on validation set 5.6137; Perplexity:274.15
+Iteration: 33000; Percent complete: 1.7%; Average loss: 3.8456; Perplexity: 46.79
+Loss on validation set 5.7695; Perplexity:320.37
+Iteration: 34000; Percent complete: 1.7%; Average loss: 3.8896; Perplexity: 48.89
+Loss on validation set 5.6363; Perplexity:280.43
+Iteration: 35000; Percent complete: 1.8%; Average loss: 3.8518; Perplexity: 47.08
+Loss on validation set 5.7291; Perplexity:307.70
+Iteration: 36000; Percent complete: 1.8%; Average loss: 3.8282; Perplexity: 45.98
+Loss on validation set 5.6812; Perplexity:293.30
+Iteration: 37000; Percent complete: 1.8%; Average loss: 3.7471; Perplexity: 42.40
+Loss on validation set 5.7703; Perplexity:320.65
+Iteration: 38000; Percent complete: 1.9%; Average loss: 3.7947; Perplexity: 44.47
+Loss on validation set 5.6949; Perplexity:297.34
+Iteration: 39000; Percent complete: 1.9%; Average loss: 3.7389; Perplexity: 42.05
+Loss on validation set 5.7384; Perplexity:310.57
+Iteration: 40000; Percent complete: 2.0%; Average loss: 3.7322; Perplexity: 41.77
+Loss on validation set 5.7540; Perplexity:315.44
+Iteration: 41000; Percent complete: 2.1%; Average loss: 3.7058; Perplexity: 40.68
+Loss on validation set 5.7558; Perplexity:316.02
+Iteration: 42000; Percent complete: 2.1%; Average loss: 3.7093; Perplexity: 40.82
+Loss on validation set 5.7516; Perplexity:314.68
+Iteration: 43000; Percent complete: 2.1%; Average loss: 3.6207; Perplexity: 37.36
+Loss on validation set 5.7771; Perplexity:322.84
+Iteration: 44000; Percent complete: 2.2%; Average loss: 3.6245; Perplexity: 37.51
+Loss on validation set 5.7796; Perplexity:323.64
+Iteration: 45000; Percent complete: 2.2%; Average loss: 3.6207; Perplexity: 37.37
+Loss on validation set 5.7877; Perplexity:326.25
+Iteration: 46000; Percent complete: 2.3%; Average loss: 3.6200; Perplexity: 37.34
+Loss on validation set 5.7992; Perplexity:330.04
+Iteration: 47000; Percent complete: 2.4%; Average loss: 3.5525; Perplexity: 34.90
+Loss on validation set 5.9668; Perplexity:390.25
+Iteration: 48000; Percent complete: 2.4%; Average loss: 3.5746; Perplexity: 35.68
+Loss on validation set 5.7778; Perplexity:323.04
+Iteration: 49000; Percent complete: 2.5%; Average loss: 3.5592; Perplexity: 35.13
+Loss on validation set 5.8414; Perplexity:344.27
+Iteration: 50000; Percent complete: 2.5%; Average loss: 3.4976; Perplexity: 33.03
+Loss on validation set 5.8445; Perplexity:345.33
+Iteration: 51000; Percent complete: 2.5%; Average loss: 3.4859; Perplexity: 32.65
+Loss on validation set 5.8922; Perplexity:362.20
+Iteration: 52000; Percent complete: 2.6%; Average loss: 3.5168; Perplexity: 33.68
+Loss on validation set 5.8818; Perplexity:358.46
+Iteration: 53000; Percent complete: 2.6%; Average loss: 3.5066; Perplexity: 33.33
+Loss on validation set 5.8787; Perplexity:357.36
+Iteration: 54000; Percent complete: 2.7%; Average loss: 3.4480; Perplexity: 31.44
+Loss on validation set 5.8939; Perplexity:362.80
+Iteration: 55000; Percent complete: 2.8%; Average loss: 3.4243; Perplexity: 30.70
+Loss on validation set 5.9275; Perplexity:375.21
+Iteration: 56000; Percent complete: 2.8%; Average loss: 3.4178; Perplexity: 30.50
+Loss on validation set 5.9794; Perplexity:395.21
+Iteration: 57000; Percent complete: 2.9%; Average loss: 3.4223; Perplexity: 30.64
+Loss on validation set 5.9527; Perplexity:384.81
+Iteration: 58000; Percent complete: 2.9%; Average loss: 3.4171; Perplexity: 30.48
+Loss on validation set 5.9511; Perplexity:384.18
+Iteration: 59000; Percent complete: 2.9%; Average loss: 3.3951; Perplexity: 29.82
+Loss on validation set 6.0378; Perplexity:418.97
+Iteration: 60000; Percent complete: 3.0%; Average loss: 3.3614; Perplexity: 28.83
+Loss on validation set 5.9501; Perplexity:383.78
+Iteration: 61000; Percent complete: 3.0%; Average loss: 3.3685; Perplexity: 29.03
+Loss on validation set 5.9897; Perplexity:399.31
+Iteration: 62000; Percent complete: 3.1%; Average loss: 3.3105; Perplexity: 27.40
+Loss on validation set 6.0635; Perplexity:429.87
+Iteration: 63000; Percent complete: 3.1%; Average loss: 3.3207; Perplexity: 27.68
+Loss on validation set 6.0360; Perplexity:418.23
+Iteration: 64000; Percent complete: 3.2%; Average loss: 3.3086; Perplexity: 27.35
+Loss on validation set 5.9924; Perplexity:400.38
+Iteration: 65000; Percent complete: 3.2%; Average loss: 3.2875; Perplexity: 26.78
+Loss on validation set 6.0986; Perplexity:445.22
+Iteration: 66000; Percent complete: 3.3%; Average loss: 3.2459; Perplexity: 25.69
+Loss on validation set 6.0409; Perplexity:420.26
+Iteration: 67000; Percent complete: 3.4%; Average loss: 3.2621; Perplexity: 26.10
+Loss on validation set 6.0419; Perplexity:420.68
+Iteration: 68000; Percent complete: 3.4%; Average loss: 3.2088; Perplexity: 24.75
+Loss on validation set 6.1370; Perplexity:462.68
+Iteration: 69000; Percent complete: 3.5%; Average loss: 3.2563; Perplexity: 25.95
+Loss on validation set 6.0596; Perplexity:428.22
+Iteration: 70000; Percent complete: 3.5%; Average loss: 3.2579; Perplexity: 26.00
+Loss on validation set 6.0697; Perplexity:432.56
+Iteration: 71000; Percent complete: 3.5%; Average loss: 3.2091; Perplexity: 24.76
+Loss on validation set 6.1350; Perplexity:461.73
+Iteration: 72000; Percent complete: 3.6%; Average loss: 3.2078; Perplexity: 24.73
+Loss on validation set 6.1011; Perplexity:446.34
+Iteration: 73000; Percent complete: 3.6%; Average loss: 3.1174; Perplexity: 22.59
+Loss on validation set 6.1167; Perplexity:453.36
+Iteration: 74000; Percent complete: 3.7%; Average loss: 3.1417; Perplexity: 23.14
+Loss on validation set 6.2127; Perplexity:499.05
+Iteration: 75000; Percent complete: 3.8%; Average loss: 3.1250; Perplexity: 22.76
+Loss on validation set 6.1763; Perplexity:481.20
+Iteration: 76000; Percent complete: 3.8%; Average loss: 3.1052; Perplexity: 22.31
+Loss on validation set 6.1748; Perplexity:480.51
+Iteration: 77000; Percent complete: 3.9%; Average loss: 3.1677; Perplexity: 23.75
+Loss on validation set 6.1854; Perplexity:485.61
+Iteration: 78000; Percent complete: 3.9%; Average loss: 3.0911; Perplexity: 22.00
+Loss on validation set 6.2018; Perplexity:493.65
+Iteration: 79000; Percent complete: 4.0%; Average loss: 3.0789; Perplexity: 21.74
+Loss on validation set 6.1838; Perplexity:484.83
+Iteration: 80000; Percent complete: 4.0%; Average loss: 3.0876; Perplexity: 21.92
+Loss on validation set 6.2301; Perplexity:507.83
+Iteration: 81000; Percent complete: 4.0%; Average loss: 3.0659; Perplexity: 21.45
+Loss on validation set 6.1910; Perplexity:488.36
+Iteration: 82000; Percent complete: 4.1%; Average loss: 3.1031; Perplexity: 22.27
+Loss on validation set 6.2238; Perplexity:504.60
+Iteration: 83000; Percent complete: 4.2%; Average loss: 3.0896; Perplexity: 21.97
+Loss on validation set 6.2405; Perplexity:513.14
+Iteration: 84000; Percent complete: 4.2%; Average loss: 3.0379; Perplexity: 20.86
+Loss on validation set 6.2388; Perplexity:512.22
+Iteration: 85000; Percent complete: 4.2%; Average loss: 3.0370; Perplexity: 20.84
+Loss on validation set 6.3448; Perplexity:569.51
+Iteration: 86000; Percent complete: 4.3%; Average loss: 3.0376; Perplexity: 20.86
+Loss on validation set 6.2798; Perplexity:533.67
+Iteration: 87000; Percent complete: 4.3%; Average loss: 2.9749; Perplexity: 19.59
+Loss on validation set 6.3315; Perplexity:562.02
+Iteration: 88000; Percent complete: 4.4%; Average loss: 3.0500; Perplexity: 21.11
+Loss on validation set 6.2751; Perplexity:531.17
+Iteration: 89000; Percent complete: 4.5%; Average loss: 2.9681; Perplexity: 19.46
+Loss on validation set 6.3630; Perplexity:579.99
+Iteration: 90000; Percent complete: 4.5%; Average loss: 2.9776; Perplexity: 19.64
+Loss on validation set 6.3359; Perplexity:564.46
+Iteration: 91000; Percent complete: 4.5%; Average loss: 2.9875; Perplexity: 19.84
+Loss on validation set 6.3857; Perplexity:593.32
+Iteration: 92000; Percent complete: 4.6%; Average loss: 2.9775; Perplexity: 19.64
+Loss on validation set 6.3340; Perplexity:563.43
+Iteration: 93000; Percent complete: 4.7%; Average loss: 2.9859; Perplexity: 19.80
+Loss on validation set 6.3888; Perplexity:595.12
+Iteration: 94000; Percent complete: 4.7%; Average loss: 2.9592; Perplexity: 19.28
+Loss on validation set 6.2906; Perplexity:539.48
+Iteration: 95000; Percent complete: 4.8%; Average loss: 2.9339; Perplexity: 18.80
+Loss on validation set 6.4509; Perplexity:633.26
+Iteration: 96000; Percent complete: 4.8%; Average loss: 2.9044; Perplexity: 18.25
+Loss on validation set 6.4479; Perplexity:631.35
