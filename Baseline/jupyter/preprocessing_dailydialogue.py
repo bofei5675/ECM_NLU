@@ -158,16 +158,17 @@ def readVocs(corpus_data, emotions_data,min_count,max_length):
 
 
 # Returns True iff both sentences in a pair 'p' are under the MAX_LENGTH threshold
-def filterPair(p,max_length):
+def filterPair(p,max_length,min_length):
     # Input sequences need to preserve the last word for EOS token
-    return len(p[0].split(' ')) < max_length and len(p[1].split(' ')) < max_length
+    return len(p[0].split(' ')) < max_length and len(p[1].split(' ')) < max_length \
+           and len(p[0].split(' ')) >= min_length and len(p[1].split(' ')) >= min_length
 
 
 # Filter pairs using filterPair condition
-def filterPairs(pairs,pairs_emotion,max_length):
+def filterPairs(pairs,pairs_emotion,max_length,min_length):
     keep_pairs,keep_pairs_emotion = [], []
     for pair,pair_emotion in zip(pairs,pairs_emotion):
-        if filterPair(pair,max_length):
+        if filterPair(pair,max_length,min_length):
             keep_pairs.append(pair)
             keep_pairs_emotion.append(pair_emotion)
     return keep_pairs,keep_pairs_emotion
