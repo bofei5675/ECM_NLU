@@ -2,7 +2,7 @@ from src.utils import *
 from src.preprocessing import *
 
 from src.model import *
-
+import pickle
 # Define constant
 # Default word tokens
 #
@@ -31,7 +31,10 @@ emo_group = {
 if __name__ == '__main__':
     # preprocessing
     voc, pairs, pairs_emotion = get_data('data/ijcnlp_dailydialog',min_count=MIN_COUNT, max_length=MAX_LENGTH, drop_num=6000)
-
+    with open('train_daily.pkl','wb') as f:
+        pickle.dump(pairs,f)
+        pickle.dump(pairs_emotion,f)
+        pickle.dump(voc,f)
     pairs_emotion = group_emotions(pairs_emotion, emo_group)
     print(len(pairs), len(pairs_emotion))
     # Configure models
